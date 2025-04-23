@@ -1,45 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Platform Landing Page</title>
+    <title>ലാൻഡിംഗ് പേജ്</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="brand">
-                <i class="fas fa-rocket"></i>
-                <span>Brand</span>
-            </div>
-            <div class="nav-links">
-                <a href="#features"><i class="fas fa-star"></i> Features</a>
-                <a href="#pricing"><i class="fas fa-tags"></i> Pricing</a>
-                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
-            </div>
-            <a href="https://spf.bio/YTMPZ" target="_blank">
-                <button class="pay-now-btn">
-                    <i class="fas fa-lock"></i> Pay Now
-                </button>
-            </a>
-            
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="brand">
+            <i class="fas fa-rocket"></i>
+            <span>ബ്രാൻഡ്</span>
+        </div>
+        <div class="nav-links">
+            <a href="#features"><i class="fas fa-star"></i> സവിശേഷതകൾ</a>
+            <a href="#pricing"><i class="fas fa-tags"></i> വിലനിർണ്ണയം</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> ബന്ധപ്പെടുക</a>
+        </div>
+        <a href="https://spf.bio/YTMPZ" target="_blank" class="pay-now-btn">
+            <i class="fas fa-lock"></i> പണമടയ്ക്കുക
+        </a>
+    </nav>
 
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1>Welcome to Our Platform</h1>
-                <p>Discover amazing features and services</p>
+                <h1>ഞങ്ങളുടെ പ്ലാറ്റ്ഫോമിലേക്ക് സ്വാഗതം</h1>
+                <p>നിങ്ങളുടെ ബിസിനസ്സ് ആവശ്യങ്ങൾക്കുള്ള മികച്ച പരിഹാരം</p>
                 <div class="cta-buttons">
-                    <button class="get-started-btn">
-                        <i class="fas fa-play"></i> Get Started
-                    </button>
-                    <button class="learn-more-btn">
-                        <i class="fas fa-info-circle"></i> Learn More
-                    </button>
+                    <a href="https://spf.bio/YTMPZ" class="get-started-btn">ആരംഭിക്കുക</a>
+                    <a href="#features" class="learn-more-btn">കൂടുതൽ അറിയുക</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -51,114 +42,48 @@
             </div>
         </section>
 
-        <section class="features" id="features">
-            <h2>Our Features</h2>
+        <section id="features" class="features">
+            <h2>ഞങ്ങളുടെ സവിശേഷതകൾ</h2>
             <div class="feature-cards">
                 <div class="feature-card">
-                    <div class="icon"><i class="fas fa-bolt"></i></div>
-                    <h3>Fast & Reliable</h3>
-                    <p>Lightning-fast performance</p>
-                    <div class="feature-stats">
-                        <div class="stat">
-                            <span class="stat-number">99.9%</span>
-                            <span class="stat-label">Uptime</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">50ms</span>
-                            <span class="stat-label">Response</span>
-                        </div>
+                    <div class="icon">
+                        <i class="fas fa-rocket"></i>
                     </div>
+                    <h3>വേഗതയുള്ള പ്രകടനം</h3>
+                    <p>നിങ്ങളുടെ ബിസിനസ്സിന് വേഗതയുള്ള സേവനം</p>
                 </div>
                 <div class="feature-card">
-                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Secure</h3>
-                    <p>Bank-grade security</p>
-                    <div class="feature-stats">
-                        <div class="stat">
-                            <span class="stat-number">256-bit</span>
-                            <span class="stat-label">Encryption</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">24/7</span>
-                            <span class="stat-label">Monitoring</span>
-                        </div>
+                    <div class="icon">
+                        <i class="fas fa-shield-alt"></i>
                     </div>
+                    <h3>സുരക്ഷിതമായ പ്ലാറ്റ്ഫോം</h3>
+                    <p>നിങ്ങളുടെ ഡാറ്റ ഞങ്ങളോടൊപ്പം സുരക്ഷിതമാണ്</p>
                 </div>
                 <div class="feature-card">
-                    <div class="icon"><i class="fas fa-cogs"></i></div>
-                    <h3>Customizable</h3>
-                    <p>Tailored to your needs</p>
-                    <div class="feature-stats">
-                        <div class="stat">
-                            <span class="stat-number">100+</span>
-                            <span class="stat-label">Options</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">24/7</span>
-                            <span class="stat-label">Support</span>
-                        </div>
+                    <div class="icon">
+                        <i class="fas fa-headset"></i>
                     </div>
+                    <h3>24/7 സപ്പോർട്ട്</h3>
+                    <p>എപ്പോഴും സഹായത്തിനായി ഞങ്ങൾ ഇവിടെയുണ്ട്</p>
                 </div>
             </div>
         </section>
 
-        <section class="testimonials">
-            <h2>What Our Users Say</h2>
-            <div class="testimonial-cards">
-                <div class="testimonial-card">
-                    <div class="user-info">
-                        <img src="https://via.placeholder.com/50" alt="User">
-                        <div class="user-details">
-                            <h4>John Doe</h4>
-                            <p>CEO, Company Inc</p>
-                        </div>
-                    </div>
-                    <p class="testimonial-text">"This platform has transformed our business operations. Highly recommended!"</p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="user-info">
-                        <img src="https://via.placeholder.com/50" alt="User">
-                        <div class="user-details">
-                            <h4>Jane Smith</h4>
-                            <p>CTO, Tech Solutions</p>
-                        </div>
-                    </div>
-                    <p class="testimonial-text">"The best platform we've used. Simple, efficient, and powerful."</p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-content">
+        <section id="contact" class="footer-content">
             <div class="footer-section">
-                <h3>About Us</h3>
-                <p>We provide the best solutions for your business needs.</p>
+                <h3>ഞങ്ങളെക്കുറിച്ച്</h3>
+                <p>നിങ്ങളുടെ ബിസിനസ്സ് ആവശ്യങ്ങൾക്കുള്ള മികച്ച പരിഹാരങ്ങൾ ഞങ്ങൾ നൽകുന്നു.</p>
             </div>
             <div class="footer-section">
-                <h3>Quick Links</h3>
+                <h3>ദ്രുത ലിങ്കുകൾ</h3>
                 <ul>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#features">സവിശേഷതകൾ</a></li>
+                    <li><a href="#pricing">വിലനിർണ്ണയം</a></li>
+                    <li><a href="#contact">ബന്ധപ്പെടുക</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h3>Connect With Us</h3>
+                <h3>ഞങ്ങളുമായി ബന്ധപ്പെടുക</h3>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -166,46 +91,11 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-        </div>
-        <p class="copyright">&copy; 2024 Your Company. All rights reserved.</p>
-    </footer>
+        </section>
+    </main>
 
-    <!-- Payment Modal -->
-    <div id="paymentModal" class="modal">
-        <div class="modal-content">
-            <h3>Payment Details</h3>
-            <form id="paymentForm">
-                <div class="form-group">
-                    <input type="email" placeholder="Email Address" required>
-                </div>
-                <div class="form-group">
-                    <div class="phone-input">
-                        <select id="countryCode">
-                            <option value="+91">+91</option>
-                            <option value="+1">+1</option>
-                            <option value="+44">+44</option>
-                        </select>
-                        <input type="tel" placeholder="Add your phone number" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="discount-code">
-                        <input type="text" placeholder="I have a Discount Code?" id="discountCode">
-                        <button type="button" class="add-btn">Add</button>
-                    </div>
-                </div>
-                <div class="price-details">
-                    <div class="sub-total">
-                        <span>Sub Total</span>
-                    </div>
-                    <div class="total">
-                        <span>Total</span>
-                    </div>
-                </div>
-                <button type="submit" class="make-payment-btn">Make Payment →</button>
-            </form>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <footer>
+        <p class="copyright">&copy; 2024 നിങ്ങളുടെ കമ്പനി. എല്ലാ അവകാശങ്ങളും നിക്ഷിപ്തം.</p>
+    </footer>
 </body>
 </html> 
